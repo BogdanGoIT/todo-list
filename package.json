@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/notes_books_v2/",
+    "build": "vite build --base=/todo-list/",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -16,6 +16,7 @@
   },
   "license": "ISC",
   "dependencies": {
+    "izitoast": "^1.4.0",
     "modern-normalize": "^3.0.1",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
